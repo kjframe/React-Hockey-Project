@@ -1,13 +1,17 @@
 import './App.css';
-import TeamsList from './features/campsites/TeamsList.js';
+import TeamsList from './features/teams/TeamsList.js';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import React from 'react'
+import background from './app/assets/img/ice.jpg'
 
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ backgroundImage: `url(${background})` }} className="App">
       <Header />
       <TeamsList />
+      <Footer />
     </div>
   );
 }
