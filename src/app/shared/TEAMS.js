@@ -7,6 +7,8 @@ import jonesboro from '../assets/img/Jonesboro.png';
 import puck from '../assets/img/Puck-Norris.jpg';
 // Photo by Jonathan Gallegos on Unsplash
 import south from '../assets/img/South-Stars.PNG';
+// Photo by Johnathan Weeks on Unspash
+import memphis from '../assets/img/Memphis-Pharaohs.png'
 
 export const TEAMS = [
     {
@@ -27,7 +29,7 @@ export const TEAMS = [
     },
     {
         id: 2,
-        name: 'Jonesboro Red Knights',
+        name: 'Jonesboro Red Knights Hockey Club',
         image: jonesboro,
         featured: false,
         description: `In this weekend workshop, we'll rebuild your bootstraps from scratch, so you're ready for next-level excursions.`
@@ -44,6 +46,14 @@ export const TEAMS = [
         id: 4,
         name: 'South Stars Hockey Club',
         image: south,
+        featured: false,
+        description:
+            'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'
+    },
+    {
+        id: 5,
+        name: 'Memphis Pharaohs Hockey Club',
+        image: memphis,
         featured: false,
         description:
             'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'

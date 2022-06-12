@@ -1,9 +1,8 @@
 import './App.css';
-import TeamCard from './features/campsites/TeamCard.js';
+import TeamsList from './features/campsites/TeamsList.js';
 import React from 'react';
 import LordStanley from './app/assets/img/Lord-Stanley.png';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import { TEAMS } from './app/shared/TEAMS';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
-      <TeamCard team={TEAMS[0]} />
+      <TeamsList />
     </div>
   );
 }
