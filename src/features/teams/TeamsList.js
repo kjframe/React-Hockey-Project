@@ -1,9 +1,9 @@
 import { Col, Row } from 'reactstrap';
 import TeamCard from './TeamCard';
-import { selectAllteams } from './teamsSlice';
+import { selectAllTeams } from './teamsSlice';
 
 const TeamsList = () => {
-    const teams = selectAllteams();
+    const teams = selectAllTeams();
 
     return (
         <Row className='ms-auto'>

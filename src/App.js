@@ -1,5 +1,5 @@
 import './App.css';
-import TeamsList from './features/teams/TeamsList.js';
+import TeamsDirectoryPage from './pages/TeamsDirectoryPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import React from 'react'
@@ -10,7 +10,7 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${background})` }} className="App">
       <Header />
-      <TeamsList />
+      <TeamsDirectoryPage />
       <Footer />
     </div>
   );

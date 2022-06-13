@@ -1,6 +1,6 @@
 import { TEAMS } from "../../app/shared/TEAMS";
 
-export const selectAllteams = () => {
+export const selectAllTeams = () => {
     return TEAMS;
 };
 
