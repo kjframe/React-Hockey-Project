@@ -10,7 +10,7 @@ const Footer = () => {
                     <h5 style={{ color: "#1DA1F2" }}>this will be site navigation!</h5>
                     </Col>
                     <Col xs='6' sm='3' className='text-center'>
-                    <h5>Social</h5>
+                    <h5 style={{ color: "#1DA1F2" }}>Social</h5>
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/'
