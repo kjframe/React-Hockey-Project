@@ -8,7 +8,7 @@ import background from './app/assets/img/ice.jpg'
 
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${background})` }} className="App">
+    <div style={{ height: '100vh', width: '100vw', backgroundSize: 'cover', backgroundImage: `url(${background})` }} className="App">
       <Header />
       <TeamsDirectoryPage />
       <Footer />

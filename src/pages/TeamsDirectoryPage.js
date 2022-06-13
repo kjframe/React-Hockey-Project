@@ -1,24 +1,18 @@
-import { Container, Row, Col, Button } from 'reactstrap';
+import { useState } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import TeamDetail from '../features/teams/TeamDetail';
 import TeamsList from '../features/teams/TeamsList';
-import { selectRandomTeam } from '../features/teams/teamsSlice';
+import { selectTeamById } from '../features/teams/teamsSlice';
 
 const TeamsDirectoryPage = () => {
-    let selectedTeam = selectRandomTeam();
-
-    const toggleTeam = () => {
-        selectedTeam = selectRandomTeam();
-        console.log(selectedTeam);
-    }
+    const [teamId, setTeamId] = useState(0);
+    const selectedTeam = selectTeamById(teamId);
 
     return (
         <Container>
-            <Button onClick={() => toggleTeam()}>
-                Select Random Team
-            </Button>
             <Row>
-                <Col sm='5' md='7'>
-                    <TeamsList />
+                <Col sm='5' md='7' >
+                    <TeamsList setTeamId={setTeamId} />
                 </Col>
                 <Col sm='7' md='5'>
                     <TeamDetail team={selectedTeam} />

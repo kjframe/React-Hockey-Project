@@ -17,7 +17,7 @@ export const TEAMS = [
         image: admirals,
         featured: true,
         description:
-            'Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided.'
+            'Admirals Hockey Club'
     },
     {
         id: 1,
@@ -25,14 +25,14 @@ export const TEAMS = [
         image: colonels,
         featured: false,
         description:
-            '5 days deep in the Redux National Monument, far from the beaten path, with only a reducer in your backpack. Guide provided.'
+            'Colonels Hockey Club'
     },
     {
         id: 2,
         name: 'Jonesboro Red Knights Hockey Club',
         image: jonesboro,
         featured: false,
-        description: `In this weekend workshop, we'll rebuild your bootstraps from scratch, so you're ready for next-level excursions.`
+        description: 'Jonesboro Red Knights Hockey Club'
     },
     {
         id: 3,
@@ -40,7 +40,7 @@ export const TEAMS = [
         image: puck,
         featured: false,
         description:
-            'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'
+            'Puck Norris Hockey Club'
     },
     {
         id: 4,
@@ -48,7 +48,7 @@ export const TEAMS = [
         image: south,
         featured: false,
         description:
-            'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'
+            'South Stars Hockey Club'
     },
     {
         id: 5,
@@ -56,6 +56,6 @@ export const TEAMS = [
         image: memphis,
         featured: false,
         description:
-            'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'
+            'Memphis Pharaohs Hockey Club'
     }
 ];
